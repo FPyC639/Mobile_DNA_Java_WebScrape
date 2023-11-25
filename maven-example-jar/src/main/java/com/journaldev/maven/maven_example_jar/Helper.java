@@ -58,7 +58,7 @@ public class Helper extends Read_Html{
 		try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName))) {
             writer.write("Index;Title\n");
             for(int count = 1; count < ls_title.size()+1; count++) {
-            	writer.write(String.valueOf(count) + ";" + ls_title.get(count-1) + "\n");
+            	writer.write(String.valueOf(count) + ";" + ls_title.get(count-1).text().strip() + "\n");
             }
             System.out.println("Data has been written to " + csvFileName);
         } catch (IOException e) {

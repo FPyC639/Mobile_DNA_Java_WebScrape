@@ -498,3 +498,6 @@
 2023-11-24 20:31:39,438 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\joses\source\repos\Mobile_DNA_Java_WebScrape\maven-example-jar\src\main\resources
 2023-11-24 20:31:39,438 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-11-24 20:31:39,438 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\joses\source\repos\Mobile_DNA_Java_WebScrape\maven-example-jar\src\test\resources
+2023-11-24 20:41:20,925 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 20:41:20,925 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\joses\source\repos\Mobile_DNA_Java_WebScrape\maven-example-jar\src\main\resources
+2023-11-24 20:41:20,926 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
