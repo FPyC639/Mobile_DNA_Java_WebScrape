@@ -1,0 +1,10 @@
+package com.journaldev.maven.maven_example_jar;
+import org.jsoup.*;
+
+public abstract class Read_Html {
+	
+	public abstract org.jsoup.Document establish_connection();
+	
+
+}
+

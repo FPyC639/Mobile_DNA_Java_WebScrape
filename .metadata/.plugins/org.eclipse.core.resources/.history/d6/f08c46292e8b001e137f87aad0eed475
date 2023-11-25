@@ -1,0 +1,35 @@
+package com.journaldev.maven.maven_example_jar;
+import org.jsoup.*;
+import com.journaldev.maven.maven_example_jar.Read_Html;
+
+
+public class Helper extends Read_Html{
+	
+	private String url;
+	private String year;
+
+	public Helper() {
+		super();
+	}
+	
+	public Helper(String url, String year) {
+		this.url = url;
+		this.year = year;
+	}
+	
+	public setter_year(string year) {
+		this.year = year;
+	}
+
+	@Override
+	public Document establish_connection() {
+		try {
+			Connection connect = Jsoup.connect(this.url);
+			
+		}
+		
+		
+		return null;
+	}
+	
+}

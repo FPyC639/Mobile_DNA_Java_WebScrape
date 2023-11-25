@@ -1,0 +1,51 @@
+package com.journaldev.maven.maven_example_jar;
+import com.journaldev.maven.maven_example_jar.Read_Html;
+import org.jsoup.*;
+import org.jsoup.nodes.*;
+
+
+public class Helper extends Read_Html{
+	
+	private String url;
+	private String year;
+
+	public Helper() {
+		super();
+	}
+	
+	public Helper(String url, String year) {
+		this.url = url;
+		this.year = year;
+	}
+	
+	public void setter_url(String url) {
+		this.url = url;
+	}
+	
+	public void setter_year(String year) {
+		this.year = year;
+	}
+
+	@Override
+	public Document establish_connection() {
+		try {
+			Connection connect = Jsoup.connect(this.url);
+			connect.data("query", this.year);
+            connect.data("volume", "");
+            connect.data("searchType", "");
+            connect.data("tab","keyword");
+            
+            Document doc = connect.get();
+            
+            return doc;
+		}
+		catch (Exception e){
+			e.printStackTrace();
+			return null;
+		}
+		
+		
+		return null;
+	}
+	
+}

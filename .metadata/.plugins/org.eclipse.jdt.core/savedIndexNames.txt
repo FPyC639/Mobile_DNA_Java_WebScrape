@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+C:\Users\joses\source\repos\Mobile_DNA_Java_WebScrape\.metadata\.plugins\org.eclipse.jdt.core
+3000612850.index
+1696264553.index
+1865797976.index
+2491407000.index
+3352321509.index
