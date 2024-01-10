@@ -23,3 +23,6 @@ In this update the search parameters were updated for the Web Scraper and except
 
 - [@FPyC639](https://github.com/FPyC639)
 
+## Appendix
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/joseserra8x)
